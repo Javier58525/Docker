@@ -11,6 +11,7 @@ Para poder crear la imagen debemos seguir los siguientes pasos:
 3. Desde su navegador ingresar a: localhost:8000
 
 4. Probar la aplicación desde el localhost
+
     a) El nombre del usuario debe empezar con Mayuscula
     
     b) La contraseña debe contener letras y numeros
