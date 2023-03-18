@@ -5,6 +5,7 @@ Para poder crear la imagen debemos seguir los siguientes pasos:
 1. Ejecutar el comando: docker build -t app .
 
 //Use el puerto 8000 ya que ocupo los puertos 3000 y 5000 para mi trabajo
+
 2. Ejecutar el comando: docker run -p 8000:8000 -d app
 
 3. Desde su navegador ingresar a: localhost:8000
