@@ -12,7 +12,9 @@ Para poder crear la imagen debemos seguir los siguientes pasos:
 
 4. Probar la aplicación desde el localhost
     a) El nombre del usuario debe empezar con Mayuscula
+    
     b) La contraseña debe contener letras y numeros
+    
     c) El template de Login es reutilizado, solo lo ajuste a los requerimientos del la actividad 
 
 
