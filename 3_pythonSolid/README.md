@@ -14,6 +14,17 @@ La URL del sitio web http://www.imdb.com/chart/top es la entrada del script.
 
 La salida es un archivo CSV llamado movie_results.csv que contiene los detalles de las 250 películas mejor calificadas.
 
+# Comentarios de la refactorización
+
+1. Single Responsibility: El código se dividio en tres clases separadas, cada una con una sola responsabilidad específica, lo que hace que cada clase sea clara y facil de entender.
+
+2. Open Closed Principle: Las clases `Data` y `CSVWriter` están cerradas para su modificación pero abiertas para extensión, lo que nos permite utilizarse en otras partes del código y se pueden extender para agregar nuevas funcionalidades sin cambiar su estructura.
+
+3. Liskov Substitution Principle: Las instancias de `Data` y `CSVWriter` se pueden usar indistintamente en cualquier lugar donde se espera un objeto de su tipo.
+
+4. ISP: La separación de responsabilidades en diferentes clases reduce la necesidad de crear interfaces explícitas, ademas las hace más fáciles de entender y por ende de mantener.
+
+5. DIP: La clase `main` depende de abstracciones en lugar de implementaciones concretas, lo que permite una mayor flexibilidad en el código y hace que sea más fácil de probar y mantener.
 
 # Building project locally
 Install VirtualEnvironment (one time)
